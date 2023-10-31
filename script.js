@@ -1,4 +1,4 @@
-// Add the "loaded" class to the body when the page is fully loaded
+
 window.addEventListener("load", () => {
     document.body.classList.add("loaded");
 });
@@ -57,19 +57,19 @@ $(document).ready(function(){
  
    $(document).ready(function () {
          $(".owl-carousels").owlCarousel({
-             items: 3, // Number of items to show at a time
-             loop: true, // Enable infinite loop
-             margin: 10, // Margin between items
+             items: 3, 
+             loop: true, 
+             margin: 10, 
              responsiveClass: true,
              responsive: {
                  0: {
-                     items: 1 // Number of items to show on smaller screens
+                     items: 1 
                  },
                  600: {
-                     items: 2 // Number of items to show on medium-sized screens
+                     items: 2 
                  },
                  1000: {
-                     items: 3 // Number of items to show on larger screens
+                     items: 3 
                  }
              }
          });
